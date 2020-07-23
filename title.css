@@ -1,0 +1,100 @@
+body, .container {
+  margin: 0;
+  padding: 0;
+font-family: 'Rowdies', cursive;
+
+}
+
+
+.welcome {
+  display: table; 
+  width: 100%;
+  background-image: url(img/grid3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 579px;
+}
+
+.header {
+  
+  vertical-align: bottom;
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+.button {
+  width: 170px;
+  height: 45px;
+  margin-bottom: 40px;
+  font-family: 'Rowdies', cursive;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #5ac7e6;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #64c4da;
+  box-shadow: 0px 15px 20px rgba(46, 156, 234, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+ 
+}
+
+.logo{
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 0 30px;
+}
+
+ img{
+   width: 113px;
+ }
+
+.textpowitalny{
+    
+    margin: 7% auto;
+    text-align: center;
+    width: 50%;
+}
+.colortext1 {
+     color: #fcf304; 
+   
+
+   }
+.colortext2 {
+     color: #64c4da; 
+   }
+
+
+pre{
+    font-family: 'Rowdies', cursive;
+}
+.foot{
+text-align: center; 
+  width: 100%;
+    color: #276993;
+    text-decoration: none;
+    margin-top: 30px;
+}
+a{
+    color: #276993;
+    text-decoration: none;
+    font-family:cursive;
+    
+}
+a:hover {
+text-decoration:none;
+   color: #007ac9 ;
+}
