@@ -1,15 +1,47 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&family=Signika:wght@600&display=swap');
 body {
-	font-family: 'Lato', sans-serif;
+	
 	font-size: 20px;
-    background: url(img/grid3.jpg)
-        no-repeat center center fixed;
+font-family: 'Red Rose', cursive;
+ background: url(img/strona1_pattern.jpg);
     background-size: cover;
     border-color: transparent;
+    max-width: 100%;
 }
 
-h1{
-    background-color: aliceblue;
+
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+@media (max-width:1200px){ 
+    .container{
+        max-width: 970px;
+    }
+}@media (max-width:992px){ 
+    .container{
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px){ 
+    .container{
+        max-width: none;
+    }
+}
+    
+
+h2{
+background-color: #fff466;
+ font-family: 'Red Rose', cursive;
+    margin: auto;
+    padding: 10px;
+    color: #8825af;
+    border-radius: 5px;
+    
+    
 }
 .question {
 	display: block;
@@ -20,24 +52,10 @@ h1{
 	margin: 0 20px 0 20px;
 }
 
-.btn-strongly-agree {
-	color: #89d298;
-	font-weight: bold;
-}
-
-.btn-strongly-agree.active,
-.btn-strongly-agree:active,
-.btn-strongly-agree:focus,
-.btn-strongly-agree:active:focus,
-.btn-strongly-agree.active:focus,
-.btn-strongly-agree:hover
- {
-	background-color: #89d298;
-}
-
 .btn-agree {
-	color: #89d298;
+	   color: #8825af;
 }
+
 
 .btn-agree.active,
 .btn-agree:active,
@@ -45,11 +63,12 @@ h1{
 .btn-agree:active:focus,
 .btn-agree.active:focus,
 .btn-agree:hover {
-	background-color: rgba(137, 210, 152, 0.5);
+	background-color: #fff466;
+
 }
 
 .btn-disagree {
-	color: #e28181;
+	color: #8825af;;
 }
 
 .btn-disagree.active,
@@ -58,25 +77,44 @@ h1{
 .btn-disagree:active:focus,
 .btn-disagree.active:focus,
 .btn-disagree:hover {
-	background-color: rgba(226, 129, 129, 0.5);
+	background-color: #fff466;
+
 }
 
-.btn-strongly-disagree {
-	color: #e28181;
-	font-weight: bold;
+.btn-neutral{
+   
+       color: #8825af;
 }
 
-.btn-strongly-disagree.active,
-.btn-strongly-disagree:active,
-.btn-strongly-disagree:focus,
-.btn-strongly-disagree:active:focus,
-.btn-strongly-disagree.active:focus,
-.btn-strongly-disagree:hover {
-	background-color: #e28181;
+.btn-neutral.active,
+.btn-neutral:active,
+.btn-neutral:focus,
+.btn-neutral:active:focus,
+.btn-neutral.active:focus,
+.btn-neutral:hover {
+	background-color: #fff466;
 }
+
+.btn-primary  {
+    color: #fff;
+    background-color: #8825af;
+    border-color: #3a1751;
+    
+}
+
+.btn-lg:focus:active{
+     background-color: #914ca7;
+    border-color: #3a1751;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #8825af;
+    border-color: #3a1751;
+}
+
 
 .bottom {
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 }
 
 .hide {
@@ -92,15 +130,13 @@ h1{
 	margin-bottom: 40px;
 	margin-top: 40px;
 }
-.container text-center{
-    background-color:transparent; 
-}
+
 .list-group-item.question{
     position: relative;
     display: block;
     padding: 10px 15px;
     margin-bottom: -1px;
-    background:url(img/pink.jpg);
+    background: url(img/white.png) no-repeat;
     background-size: cover;
     color:darkred;
     border: 0px solid transparent;
@@ -108,7 +144,10 @@ h1{
 }
 
 p{
-    background-color: transparent;
+    background-color: white;
+       color: #8825af;
+    padding: 1%;
+    border-radius: 5px;
 }
 
 * {
